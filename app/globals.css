@@ -16,6 +16,16 @@
   }
 }
 
+@layer components{
+  .btn-convert{
+    @apply border-2 border-white p-2 bg-blue-700 text-white hover:bg-blue-900 rounded-lg
+  }
+  .btn-download{
+    @apply border-2 border-white p-2 bg-orange-700 text-white hover:bg-orange-900 rounded-lg
+  }
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
